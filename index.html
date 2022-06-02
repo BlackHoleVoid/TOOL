@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tool</title>
+</head>
+<body>
+    <div class="wrapper">
+        <img src="brand.png" alt="TOOL band logo">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="https://store.toolband.com/" target="_blank">STORE</a></li>
+                    <li><a href="">TOOL ARMY</a></li>
+                    <li id="socials" onclick="window.open('file:///C:/Users/rivo7/Desktop/Portfolio/Project%20-May/socials.html')"><a href="">SOCIALS</a></li>
+                    <li><a href="">LOGIN</a></li>
+                </ul>    
+            </nav>
+        </header>
+    </div>    
+    <div class="main">
+         <div class="container">
+          <img src="undetow.jpg" alt="">
+          <div class="overlay">
+            <div class="text">Undertow - 1993</div>
+          </div>
+         </div>
+             <div class="container">
+                <img src="eanima.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">Ænima - 1996</div>
+                  </div>
+             </div>
+                <div class="container">
+                    <img src="lateralus.jpg" alt="">
+                    <div class="overlay">
+                        <div class="text">Lateralus - 2001</div>
+                      </div>
+                </div>    
+            <div class="container">
+               <img src="10000days.jpg" alt="">
+               <div class="overlay">
+                <div class="text">10 000 days - 2006</div>
+              </div>
+            </div>
+         <div class="container"> 
+           <img src="fear.jpg" alt="">
+           <div class="overlay">
+            <div class="text">Fear Inoculum - 2019</div>
+          </div>
+         </div> 
+    </div>
+   <script>
+       const el = document.getElementsByClassName('overlay');
+
+       const hiddenDiv = document.getElementsByClassName('text');
+function myFunction() {
+
+       el.addEventListener('mouseover', function handleMouseOver() {
+  hiddenDiv.style.visibility = 'visible';
+});
+
+el.addEventListener('mouseout', function handleMouseOut() {
+  hiddenDiv.style.visibility = 'hidden';
+});
+}
+      
+   </script>
+</body>
+</html>
